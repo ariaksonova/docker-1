@@ -1,0 +1,2 @@
+#!/bin/bash
+docker service create --detach=true --env USERNAME=user --env PASSWD=pass --network overmind --replicas 2 --name engineerin-bay 42school/engineering-bay
